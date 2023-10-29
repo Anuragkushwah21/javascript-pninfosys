@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //return value
+      function sum(a, b) {
+        let c = a + b;
+
+        return c;
+      }
+      let result = sum(5, 6);
+      document.write(result);
+
+      //return value with percentage
+
+      function sum(math, eng, sc) {
+        let s = math + eng + sc;
+        return s;
+      }
+      function percentage(total) {
+        let per = (total / 300) * 100;
+        document.write(per);
+      }
+      let total = sum(40, 40, 40);
+      //   document.write(total)
+      percentage(total);
+
+      //return value with avrage
+
+      function avg(num1, num2, num3) {
+        var total = num1 + num2 + num3;
+        var average = total / 3;
+        return average;
+      }
+      let c = avg(15, 50, 25);
+      document.write(c);
+    </script>
+  </body>
+</html>
